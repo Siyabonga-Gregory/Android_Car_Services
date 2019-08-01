@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res-auto">
+    <item app:icon="@drawable/ic_test" app:id="@+id/nextImage" app:orderInCategory="100" app:title="Next Image" app:showAsAction="always" />
+    <item app:icon="@drawable/ic_test" app:id="@+id/previousImage" app:orderInCategory="100" app:title="Previous Image" app:showAsAction="always" />
+    <item app:icon="@drawable/ic_test" app:id="@+id/back" app:orderInCategory="100" app:title="Main" app:showAsAction="always" />
+</menu>

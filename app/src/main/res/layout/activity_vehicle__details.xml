@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/other_view"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1.0">
+
+    <LinearLayout android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1.0"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+        <TextView android:textAppearance="@style/AlertDialog.AppCompat.Light"
+            android:textSize="22sp"
+            android:textColor="#ffffff"
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/vehicle_details"
+            android:layout_weight="0.07"
+            android:textAlignment="center" />
+
+        <EditText android:textAppearance="@style/AlertDialog.AppCompat.Light"
+            android:textSize="15sp"
+            android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end"
+            android:id="@+id/txtRegistration_Number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Registration Number"
+            android:layout_weight="0.08"
+            android:inputType="text" />
+
+        <EditText android:textAppearance="@style/AlertDialog.AppCompat.Light"
+            android:textSize="15sp"
+            android:id="@+id/txtVehicleMake"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/make"
+            android:layout_weight="0.08"
+            android:inputType="text" />
+
+        <EditText android:textAppearance="@style/AlertDialog.AppCompat.Light"
+            android:textSize="15sp"
+            android:id="@+id/txtVehicleModel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/model"
+            android:layout_weight="0.08"
+            android:inputType="text" />
+        <EditText android:textAppearance="@style/AlertDialog.AppCompat.Light"
+            android:textSize="15sp"
+            android:id="@+id/txtVehicleYear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/year"
+            android:layout_weight="0.08"
+            android:inputType="number|numberSigned|numberDecimal|numberPassword|phone" />
+
+        <EditText android:textAppearance="@style/AlertDialog.AppCompat.Light"
+            android:textSize="15sp"
+            android:id="@+id/txtVehicleMileage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/mileage"
+            android:layout_weight="0.08"
+            android:inputType="number|numberSigned|numberDecimal|numberPassword|phone" />
+
+        <EditText android:textAppearance="@style/AlertDialog.AppCompat.Light"
+            android:textSize="15sp"
+            android:id="@+id/txtVehicleVinNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/vin_number"
+            android:layout_weight="0.08"
+            android:inputType="text" />
+
+        <EditText android:textAppearance="@style/AlertDialog.AppCompat.Light"
+            android:textSize="15sp"
+            android:id="@+id/txtVehiclDateBookedIn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/date_booked_in"
+            android:layout_weight="0.08"
+            android:inputType="datetime|date|time" />
+
+        <EditText android:textAppearance="@style/AlertDialog.AppCompat.Light"
+            android:textSize="15sp"
+            android:id="@+id/txtVehicleServiceDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/service_date"
+            android:layout_weight="0.08"
+            android:inputType="datetime|date|time" />
+
+        <EditText android:textAppearance="@style/AlertDialog.AppCompat.Light"
+            android:textSize="15sp"
+            android:id="@+id/txtVehicleReturningDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/returning_date"
+            android:layout_weight="0.08"
+            android:inputType="datetime|date|time" />
+
+        <Button android:textColor="@color/abc_primary_text_disable_only_material_light"
+            android:textColorHighlight="#0efc1e"
+            android:textColorHint="@color/abc_primary_text_material_light"
+            android:id="@+id/btnNextToImages"
+            android:background="0x1060000"
+            android:longClickable="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/proceed"
+            android:layout_weight="0.08"
+            android:textAlignment="center" />
+
+    </LinearLayout>
+</RelativeLayout>

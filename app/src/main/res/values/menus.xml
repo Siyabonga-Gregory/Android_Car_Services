@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <menu name="fault_images">res/menu/fault_images.xml</menu>
+    <menu name="main_menu">res/menu/main_menu.xml</menu>
+    <menu name="menu_main2">res/menu/menu_main2.xml</menu>
+    <menu name="recording_fault">res/menu/recording_fault.xml</menu>
+</resources>

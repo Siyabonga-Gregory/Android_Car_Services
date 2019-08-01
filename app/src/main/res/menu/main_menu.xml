@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res-auto">
+    <item app:icon="@drawable/ic_test" app:id="@+id/bookIn" app:orderInCategory="100" app:title="@string/Book_In" app:showAsAction="always" />
+    <item app:icon="@drawable/ic_test" app:id="@+id/recordFault" app:orderInCategory="100" app:title="@string/recordFault" app:showAsAction="always" />
+</menu>
