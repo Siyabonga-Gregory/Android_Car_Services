@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">CRUD</string>
+    <string name="registration_number">Registration Number</string>
+    <string name="vehicle_details">Vehicle Details</string>
+    <string name="proceed">Proceed</string>
+</resources>

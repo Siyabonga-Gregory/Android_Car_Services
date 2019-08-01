@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1.0">
+    <LinearLayout android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1.0"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+        <TextView
+            android:textSize="22sp"
+            android:textColor="#ffffff"
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/vehicle_details"
+            android:layout_weight="0.07"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/txtRegistration_Number"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_gravity="start"
+            android:layout_weight="0.08"
+            android:hint="@string/registration_number"
+            android:inputType="text"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/txtRegistration_Number2"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_gravity="start"
+            android:layout_weight="0.08"
+            android:hint="@string/registration_number"
+            android:inputType="text"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/txtRegistration_Number3"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_gravity="start"
+            android:layout_weight="0.08"
+            android:hint="@string/registration_number"
+            android:inputType="text"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/btnNextToImages"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_weight="0.08"
+            android:background="@color/colorPrimary"
+            android:hint="@string/proceed"
+            android:longClickable="true"
+            android:textAlignment="center"
+            android:textColor="@color/colorAccent"
+            android:textColorHighlight="#0efc1e"
+            android:textColorHint="@color/colorAccent" />
+
+    </LinearLayout>
+</RelativeLayout>
